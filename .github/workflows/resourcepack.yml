@@ -1,0 +1,30 @@
+name: Build Resource Pack
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create clean resource pack ZIP
+        run: |
+          zip -r resourcepack.zip . \
+            -x ".git/*" \
+               ".github/*" \
+               "*.md" \
+               ".gitignore"
+
+      - name: Publish to stable release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Resource Pack
+          files: resourcepack.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
