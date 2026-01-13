@@ -1,5 +1,8 @@
 name: Build Resource Pack
 
+permissions:
+  contents: write   # ← THIS IS THE FIX
+
 on:
   push:
     branches:
@@ -23,5 +26,3 @@ jobs:
           tag_name: latest
           name: Latest Resource Pack
           files: resourcepack.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
