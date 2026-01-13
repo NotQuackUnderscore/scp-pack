@@ -1,0 +1,61 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/heart_of_the_sea"
+		},
+		"cases": [
+			{
+				"when": "ihall",
+				"model": {
+				  "type": "model",
+				  "model": "item/ihall"
+				}
+			},
+			{
+				"when": "lhall1",
+				"model": {
+				  "type": "model",
+				  "model": "item/lhall1"
+				}
+			},
+			{
+				"when": "lhall2",
+				"model": {
+				  "type": "model",
+				  "model": "item/lhall2"
+				}
+			},
+			{
+				"when": "thall1",
+				"model": {
+				  "type": "model",
+				  "model": "item/thall1"
+				}
+			},
+			{
+				"when": "thall2",
+				"model": {
+				  "type": "model",
+				  "model": "item/thall2"
+				}
+			},
+			{
+				"when": "thall3",
+				"model": {
+				  "type": "model",
+				  "model": "item/thall3"
+				}
+			},
+			{
+				"when": "xhall",
+				"model": {
+				  "type": "model",
+				  "model": "item/xhall"
+				}
+			}
+		]
+	}
+}

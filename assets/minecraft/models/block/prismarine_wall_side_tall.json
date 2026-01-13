@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"wall": "block/wall",
+		"floor": "block/floor",
+        "trim": "block/trim",
+		"line": "block/line",
+		"panel": "block/panel",
+		"pipe": "block/pipe"
+	},
+	"elements": [
+		{   "from": [ 5, 0, 0 ],
+            "to": [ 11, 16, 8 ],
+            "faces": {
+                "down":  { "texture": "#floor", "cullface": "down" },
+                "up":    { "texture": "#wall", "cullface": "up"},
+                "north": { "texture": "#trim", "cullface": "north" },
+                "west":  { "texture": "#trim" },
+                "east":  { "texture": "#trim" }
+            }
+        }
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/air",
+  "textures": {
+    "pane": "minecraft:block/door_bottom"
+  }
+}

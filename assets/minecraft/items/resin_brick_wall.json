@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/panel_wall"
+    },
+    "cases": [
+      {
+        "when": "panel",
+        "model": {
+          "type": "model",
+          "model": "block/resin_brick_wall_inventory"
+        }
+      }
+    ]
+  }
+}

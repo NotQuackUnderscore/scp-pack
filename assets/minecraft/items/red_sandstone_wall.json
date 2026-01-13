@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/line_wall"
+    },
+    "cases": [
+      {
+        "when": "lined",
+        "model": {
+          "type": "model",
+          "model": "block/red_sandstone_wall_inventory"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/copper_door"
+    },
+    "cases": [
+      {
+        "when": "door",
+        "model": {
+          "type": "model",
+          "model": "item/door"
+        }
+      }
+    ]
+  }
+}

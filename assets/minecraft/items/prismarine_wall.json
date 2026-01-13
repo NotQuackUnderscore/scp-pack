@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/trim_wall"
+    },
+    "cases": [
+      {
+        "when": "trim",
+        "model": {
+          "type": "model",
+          "model": "block/prismarine_wall_inventory"
+        }
+      }
+    ]
+  }
+}

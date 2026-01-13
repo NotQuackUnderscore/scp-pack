@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/heart_of_the_sea"
+		},
+		"cases": [
+			{
+				"when": "714",
+				"model": {
+				  "type": "model",
+				  "model": "item/714"
+				}
+			}
+		]
+	}
+}

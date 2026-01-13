@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/trim"
+    },
+    "cases": [
+      {
+        "when": "wall",
+        "model": {
+          "type": "model",
+          "model": "block/exposed_chiseled_copper"
+        }
+      }
+    ]
+  }
+}

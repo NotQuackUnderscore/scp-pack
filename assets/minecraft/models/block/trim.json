@@ -1,0 +1,25 @@
+{
+    "parent": "block/block",
+	"textures": {
+        "wall": "block/wall",
+		"floor": "block/floor",
+        "trim": "block/trim",
+		"line": "block/line",
+		"panel": "block/panel",
+		"pipe": "block/pipe",
+		"particle": "#trim"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#floor", "cullface": "down" },
+                "up":    { "texture": "#wall", "cullface": "up" },
+                "north": { "texture": "#trim", "cullface": "north" },
+                "south": { "texture": "#trim", "cullface": "south" },
+                "west":  { "texture": "#trim", "cullface": "west" },
+                "east":  { "texture": "#trim", "cullface": "east" }
+            }
+        }
+    ]
+}

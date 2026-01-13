@@ -1,0 +1,84 @@
+{
+   "providers": [
+		{
+			"type": "bitmap",
+			"file": "misc/white.png",
+			"height": 1000,
+			"ascent": 150,
+			"chars": [
+				"█"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/blink.png",
+			"height": 12,
+			"ascent": -24,
+			"chars": [
+				"👁"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/sprint.png",
+			"height": 12,
+			"ascent": -40,
+			"chars": [
+				"🥾"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/crouch.png",
+			"height": 12,
+			"ascent": -40,
+			"chars": [
+				"🛏"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/blinkbar.png",
+			"height": 6,
+			"ascent": -27,
+			"chars": [
+				"♠"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/sprintbar.png",
+			"height": 6,
+			"ascent": -43,
+			"chars": [
+				"♣"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/emptybar.png",
+			"height": 10,
+			"ascent": -25,
+			"chars": [
+				"["
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "font/emptybar.png",
+			"height": 10,
+			"ascent": -41,
+			"chars": [
+				"]"
+			]
+		},
+		{
+			"type": "space",
+			"advances": {
+				"⏳": -82,
+				"<": -99,
+				"«": -15
+			}
+		}
+	]
+}

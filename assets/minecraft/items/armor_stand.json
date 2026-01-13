@@ -1,0 +1,47 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/armor_stand"
+		},
+		"cases": [
+			{
+				"when": "173",
+				"model": {
+					"type": "model",
+					"model": "item/173"
+				}
+			},
+			{
+				"when": "049",
+				"model": {
+					"type": "model",
+					"model": "item/049"
+				}
+			},
+			{
+				"when": "079",
+				"model": {
+					"type": "model",
+					"model": "item/079"
+				}
+			},
+			{
+				"when": "079off",
+				"model": {
+					"type": "model",
+					"model": "item/079off"
+				}
+			},
+			{
+				"when": "079refuse",
+				"model": {
+					"type": "model",
+					"model": "item/079refuse"
+				}
+			}
+		]
+	}
+}

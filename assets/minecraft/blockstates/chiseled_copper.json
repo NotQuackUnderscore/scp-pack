@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "minecraft:block/wall"
+			},
+			{
+				"model": "minecraft:block/wall",
+				"y": 180
+			},
+			{
+				"model": "minecraft:block/wall2"
+			},
+			{
+				"model": "minecraft:block/wall2",
+				"y": 180
+			}
+		]
+	}
+}
