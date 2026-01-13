@@ -12,15 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create clean resource pack ZIP
+      - name: Create Minecraft-compatible ZIP
         run: |
-          zip -r resourcepack.zip . \
-            -x ".git/*" \
-               ".github/*" \
-               "*.md" \
-               ".gitignore"
+          zip -r resourcepack.zip \
+            assets pack.mcmeta pack.png
 
-      - name: Publish to stable release
+      - name: Publish stable release asset
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
